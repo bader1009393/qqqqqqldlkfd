@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fill PDF File</title>
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib"></script>
+</head>
+<body>
+  <h1>Fill PDF File</h1>
+  <form id="pdfForm">
+    <label for="company">Company Name:</label>
+    <input type="text" id="company" name="company" required>
+    <br><br>
+    <label for="serviceAmount">Service Amount:</label>
+    <input type="number" id="serviceAmount" name="serviceAmount" required>
+    <br><br>
+    <label for="preTaxAmount">Pre-Tax Amount:</label>
+    <input type="number" id="preTaxAmount" name="preTaxAmount" required>
+    <br><br>
+    <label for="tax">Tax:</label>
+    <input type="number" id="tax" name="tax" required>
+    <br><br>
+    <label for="totalAmount">Total Amount:</label>
+    <input type="number" id="totalAmount" name="totalAmount" required>
+    <br><br>
+    <button type="submit">Download PDF</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
